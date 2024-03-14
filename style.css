@@ -623,22 +623,16 @@ blockquote p {
 }
 
 .recent-work {
-  background: #6578bc; /* Old browsers */
-  background: -moz-linear-gradient(left,  #6578bc 0%, #1abc9c 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6578bc), color-stop(100%,#1abc9c)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* IE10+ */
-  background: linear-gradient(to right,  #6578bc 0%,#1abc9c 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6578bc', endColorstr='#1abc9c',GradientType=1 ); /* IE6-9 */
-
+  background: rgba(85, 92, 105, 0.418); /* Cambiar el valor de RGBA según el color y la opacidad deseada */
+  
   position: relative;
   margin-bottom: 1em;
-/*border-radius*/
+  /* border-radius */
   -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
+
 
 .portfolio-filter {
   margin: 40px 0 0;
